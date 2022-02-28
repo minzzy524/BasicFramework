@@ -148,6 +148,7 @@ namespace Ex05_ValueType
             Console.WriteLine(i2); // 0 출력
             double d2 = default;
             Console.WriteLine(d2); // 0 출력
+            Console.WriteLine(d2); // 0 출력
         }
     }
 }
