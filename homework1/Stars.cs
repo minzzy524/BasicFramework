@@ -6,24 +6,47 @@ using System.Threading.Tasks;
 
 namespace homework1
 {
-    internal class Stars
+    class Stars
     {
         static void Main(string[] args)
         {
-            int num = 5;
-            for (int i = 0; i < num; i++)
-            {
-                for (int j = num - 1; j > i; j--)
-                {
-                    Console.WriteLine();
-                }
+ 
+            for (int i = 1; i <= 5; i++) { 
+                for (int j = 1; j <= 5 - i; j++) 
+                    Console.Write(" "); 
+                for (int j = 1; j <= 2 * i - 1; j++) 
+                    Console.Write("*"); Console.WriteLine();
+            }
 
-                for (int j = 0; j < 2 * i + 1; j++)
-                {
-                    Console.Write("*"); 
-                }
+            Console.WriteLine("\n");
+
+            for (int i = 5; i >= 1; i--) {
+                for (int j = 1; j <= i; j++)
+                    Console.Write("*");
+                    Console.WriteLine();
+            }
+
+            Console.WriteLine("\n");
+
+
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                    Console.Write("*");
                 Console.WriteLine();
             }
+
+            Console.WriteLine("\n");
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
