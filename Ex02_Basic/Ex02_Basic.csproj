@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EmpLib">
+      <HintPath>..\..\..\..\..\..\..\Ecount\Labs\BasicFrameWork\git_ecount\Ex03_Emplib\bin\Debug\EmpLib.dll</HintPath>
+    </Reference>
     <Reference Include="Ex03_Emplib">
       <HintPath>..\Ex03_Emplib\bin\Debug\Ex03_Emplib.dll</HintPath>
     </Reference>

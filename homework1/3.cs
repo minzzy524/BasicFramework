@@ -1,10 +1,10 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace homework1
+/*namespace homework1
 {
     class _3
     {
@@ -23,5 +23,4 @@ namespace homework1
             }
         }
     }
-}
-*/
+}*/
