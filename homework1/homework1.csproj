@@ -46,6 +46,7 @@
     <Compile Include="1to100.cs" />
     <Compile Include="3.cs" />
     <Compile Include="Alphabet.cs" />
+    <Compile Include="git_test_MS.cs" />
     <Compile Include="RSP2.cs" />
     <Compile Include="FlowChart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
