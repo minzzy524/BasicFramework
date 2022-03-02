@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -71,7 +71,7 @@ namespace homework1
             }
 
 
-            /*for (int m = 1; m < 5; m++)
+            *//*for (int m = 1; m < 5; m++)
             {
                 for (int n = 4; n < 5; n++)
                     Console.Write(" ");
@@ -88,9 +88,10 @@ namespace homework1
                     Console.Write(" ");
                 for (int j = 1; j <= 2 * i - 1; j++)
                     Console.Write("*");
-                Console.WriteLine();*/
+                Console.WriteLine();*//*
 
             }
     }
 }
 
+*/
