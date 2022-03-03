@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88A565F9-3BE0-4044-B114-CAA27F9AA551}</ProjectGuid>
+    <ProjectGuid>{C6B7573C-EDF0-432D-94BB-0DCBAFB40830}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>homework1</RootNamespace>
-    <AssemblyName>homework1</AssemblyName>
+    <RootNamespace>Ex14_static</RootNamespace>
+    <AssemblyName>Ex14_static</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1to100.cs" />
-    <Compile Include="3.3 morning quiz.cs" />
-    <Compile Include="3.cs" />
-    <Compile Include="Alphabet.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RSP.cs" />
-    <Compile Include="Stars.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

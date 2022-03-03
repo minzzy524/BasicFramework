@@ -64,7 +64,7 @@ namespace Ex10_class
 
         // property(함수x) : private 한 member field 에 대해서 간접적인 데이터 처리 목적 : read, write
         // int num > property > get , set > read, write 구현
-
+        // 캡슐화된 멤버필드의 자료를 read / write 
         // smart field 이름도 사용
 
         public int Num // 함수가 아니라서 () 안 씀
@@ -93,12 +93,13 @@ namespace Ex10_class
         // 함수 이름
         // 특수한 목적의 함수 (사용방법은 member field 의 초기화)
         // @@ 외워 이런 방법이야
-        // 설계 약속 : 함수의 이름 클래스 이름과 같이
+        // 설계 약속 : 함수의 이름 클래스 이름과 같다.
         // ex)
         public Apt() // 원칙적으로 함수는 public void(동전 넣으면 아무것도 안줘) or public int(정수 줄게) or public string(문자열 줄게)
-        {            // 생성자 함수 (constructor) >> 객체가 생성 될 때 호출되는 함수.
+        {            // 생성자 함수 (constructor) >> 객체가 생성 될 때 동시에 호출되는 함수.
                      // Apt apt = new Apt();
                      // member field 가 먼저 memory에 올라가고, 생성자 함수가 실행된다.
+                     
             aptname = "삼성";
             aptcolor = "red";
 

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +9,7 @@ namespace homework1
     {
         enum a { 가위, 바위, 보 };
 
-         static void Main(string[] args)
+        static void Main(string[] args)
         {
             Boolean auto = true;
             Random rnd = new Random();
@@ -61,4 +60,3 @@ namespace homework1
             }
         }
     }
-}
