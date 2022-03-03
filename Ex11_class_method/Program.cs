@@ -10,16 +10,17 @@ namespace Ex11_class_method
     // 설계도 : 속성 + 기능
 
     // 기능 == 행위 == "method(한국말로는 함수)"
+    // Method 하나 당 기능 하나
 
     class Test {
         private int i; // instance variable or member field
         // 행위 기능
         // method 는 누군가 이름을 부르면 실행됨. 
         // 4가지
-        // void, parameter (x) : public void m(){ 실행 코드 } -> 24번 라인
-        // void, parameter (o) : public void m(int i) { 실행 코드} -> ""
-        // return, parameter(x) : publc int m() { return 값 } -> " 당신이 나를 불러주면 나는 return 으로 정수값을 주겠습니다. "
-        // return, parameter(o) : publc int m(int i) { return i; } 
+        // void, parameter (x) : public void m(){ 실행 코드 } 돌려줄건 없고 동전구멍 있어요-> 24번 라인
+        // void, parameter (o) : public void m(int i) { 실행 코드} -> 돌려줄건 없고 동전구멍 있어요
+        // return, parameter(x) : publc int m() { return 값 } -> 당신이 나를 불러주면 나는 return 으로 정수값을 주겠습니다.
+        // return, parameter(o) : publc int m(int i) { return i; }  뭔가를 돌려 줄거고 동전구멍 있어요(뽑기)
 
 
         // parameter 인수, 인자, 매개값(변수)
