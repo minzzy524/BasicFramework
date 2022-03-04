@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex18_const_readonly
 {
-    class Test {
+    class Test { // 둘 다 상수여서 바꿀 수 없음
         // const 상수 생성 시
         // 1. 객체간 공유자원 > 자동으로 static (공유자원)
         // 2. 의무적 (강제) 초기화
@@ -16,6 +16,7 @@ namespace Ex18_const_readonly
         // raedonly 상수 생성 시
         // 1. 반드시 초기화 할 필요가 없다.
         // 2. 생성자에서 딱 한번 값을 할당 할 수 있다.(변경 불가)
+        // 3. 객체가 가지는 상수 -> 객체마다 다른 상수를 갖게 하겠다는 의도 // 엘레베이터
         public readonly int readdata;
 
         public Test(int data)

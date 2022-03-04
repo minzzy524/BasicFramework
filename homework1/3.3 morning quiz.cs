@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace homework1
     {
         static void Main()
         {
-/*            int fact = 0;
+*//*            int fact = 0;
 
             for (int i = 1; i <= 4; i++)
             {
@@ -22,7 +22,7 @@ namespace homework1
                 }
                 Console.WriteLine($"{fact,2}");
             }
-*/
+*//*
 
             int inputNum = 4;
             int resultNum = 1;
@@ -47,3 +47,4 @@ namespace homework1
         }
     }
 }
+*/

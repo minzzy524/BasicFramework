@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88A565F9-3BE0-4044-B114-CAA27F9AA551}</ProjectGuid>
+    <ProjectGuid>{3F6DB1B6-C72E-4D5B-8EEB-5495023EAF22}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>homework1</RootNamespace>
-    <AssemblyName>homework1</AssemblyName>
+    <RootNamespace>Ex20_Array</RootNamespace>
+    <AssemblyName>Ex20_Array</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1to100.cs" />
-    <Compile Include="3.3 morning quiz.cs" />
-    <Compile Include="3.cs" />
-    <Compile Include="Alphabet.cs" />
-    <Compile Include="Cinema_Reservation.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RSP%28HK%29.cs" />
-    <Compile Include="RSP%28JY%29.cs" />
-    <Compile Include="RSP.cs" />
-    <Compile Include="Stars.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
