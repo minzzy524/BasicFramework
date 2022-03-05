@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Ex22_Array_Quiz
 {
-    class Lotto // Lotto 과제 힌트
+    class LottoHint // Lotto 과제 힌트
     {
         private int[] numbers;
         private Random random; // member feild
         // 여기서 초기화 하지마라 new 이런거
 
-        public Lotto() { // member field 의 초기화가 목적인 생성자에서 처리하자
+        public LottoHint()
+        { // member field 의 초기화가 목적인 생성자에서 처리하자
             numbers = new int[6];  // 여기서 배열의 초기화 진행해라 (초기화 : 최초로 값을 갖는 행위)
             random = new Random(); // 초기화
 
@@ -51,11 +52,11 @@ namespace Ex22_Array_Quiz
 }
 
 
- /*
-    static void Main(){
-        Lotto lotto = new Lotto();
-        lotto.getReadLottoNumbers();
-        lotto.displayLottoNumbers();
- 
- */
+/*
+   static void Main(){
+       Lotto lotto = new Lotto();
+       lotto.getReadLottoNumbers();
+       lotto.displayLottoNumbers();
+
+*/
 

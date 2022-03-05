@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21D34330-057B-4076-A3F5-2AAA3651F265}</ProjectGuid>
+    <ProjectGuid>{24047F22-147B-4E87-A83F-7B8E897002FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex22_Array_Quiz</RootNamespace>
-    <AssemblyName>Ex22_Array_Quiz</AssemblyName>
+    <RootNamespace>_220302_Homework</RootNamespace>
+    <AssemblyName>220302_Homework</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LottoHint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

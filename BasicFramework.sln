@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex06_Opr", "Ex06_Opr\Ex06_O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex07_statement", "Ex07_statement\Ex07_statement.csproj", "{C388A88E-CDB0-4F95-9DED-82D7086752F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework1", "homework1\homework1.csproj", "{88A565F9-3BE0-4044-B114-CAA27F9AA551}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework", "homework1\homework.csproj", "{88A565F9-3BE0-4044-B114-CAA27F9AA551}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex08_statement2", "Ex08_statement2\Ex08_statement2.csproj", "{F5F21EA1-27F3-44EB-84BF-CF1068211BB9}"
 EndProject
