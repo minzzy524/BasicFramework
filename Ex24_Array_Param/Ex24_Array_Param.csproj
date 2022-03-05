@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF003F11-EEF5-4633-8E5D-93C763809E92}</ProjectGuid>
+    <ProjectGuid>{50969596-ADFA-435C-89FF-DC27AA93A61D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex_24_Array_Param</RootNamespace>
-    <AssemblyName>Ex_24_Array_Param</AssemblyName>
+    <RootNamespace>Ex24_Array_Param</RootNamespace>
+    <AssemblyName>Ex24_Array_Param</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

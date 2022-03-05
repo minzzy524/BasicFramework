@@ -43,19 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1to100.cs" />
-    <Compile Include="3.3 morning quiz.cs" />
-    <Compile Include="3.cs" />
-    <Compile Include="Alphabet.cs" />
-    <Compile Include="Cinema_Reservation.cs" />
+    <Compile Include="HW1\1to100.cs" />
+    <Compile Include="HW1\3.3 morning quiz.cs" />
+    <Compile Include="HW1\3.cs" />
+    <Compile Include="HW1\Alphabet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RSP%28HK%29.cs" />
-    <Compile Include="RSP%28JY%29.cs" />
-    <Compile Include="RSP.cs" />
-    <Compile Include="Stars.cs" />
+    <Compile Include="HW1\RSP%28HK%29.cs" />
+    <Compile Include="HW1\RSP%28JY%29.cs" />
+    <Compile Include="HW1\RSP.cs" />
+    <Compile Include="HW1\Stars.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="HW1\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HW2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
