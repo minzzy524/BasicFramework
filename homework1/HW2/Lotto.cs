@@ -1,62 +1,49 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Linq;  // .Contains 
 
-namespace Ex22_Array_Quiz
+namespace test
 {
-    class LottoHint // Lotto 과제 힌트
+    class Program
     {
-        private int[] numbers;
-        private Random random; // member feild
-        // 여기서 초기화 하지마라 new 이런거
+        static void Main(string[] args)
+        {
+            Random rand = new Random();
 
-        public LottoHint()
-        { // member field 의 초기화가 목적인 생성자에서 처리하자
-            numbers = new int[6];  // 여기서 배열의 초기화 진행해라 (초기화 : 최초로 값을 갖는 행위)
-            random = new Random(); // 초기화
+            int[] num = new int[6];
 
-            for (int i = 0; i < 7; i++)
+            // 번호 
+            for (int i = 0; i < num.Length; i++)
             {
-                Console.WriteLine("lotto[{0}] = {1}", numbers, random);
-
-                //var bytes = new byte[5];
-                //rand.NextBytes(bytes);
-                //Console.WriteLine("Five random byte values:");
-                //textBox1.Text += Convert.ToString(i + 1 + "회 : " + array[i] + Environment.NewLine);
+                int a = rand.Next(1, 46);
+                if (!num.Contains(a))
+                    num[i] = a;
+                else
+                    i--;
             }
 
+            // 버블정렬 
+            for (int j = 0; j < num.Length - 1; j++)
+            {
+                for (int k = 1; k < num.Length - 1; k++)
+                {
+                    if (num[k] < num[k - 1])
+                    {
+                        // 스왑 
+                        int temp = num[k];
+                        num[k] = num[k - 1];
+                        num[k - 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("로또 번호");
+            for (int m = 0; m < num.Length - 1; m++)
+            {
+                Console.Write(num[m] + " ");
+            }
+            Console.WriteLine();
+
 
         }
-
-        public void getReadLottoNumbers()
-        {
-
-
-
-        }
-
-
-        public void displayLottoNumbers()
-        {
-
-        }
-
-
-
-        // 추가적인 함수의 구현
-        // 정렬하는 함수 같은거는 private  같은거 써
-
     }
 }
-
-
-/*
-   static void Main(){
-       Lotto lotto = new Lotto();
-       lotto.getReadLottoNumbers();
-       lotto.displayLottoNumbers();
-
-*/
-
