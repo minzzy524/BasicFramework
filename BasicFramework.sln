@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23_Array_Cinema", "Ex23_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex24_Array_Param", "Ex24_Array_Param\Ex24_Array_Param.csproj", "{50969596-ADFA-435C-89FF-DC27AA93A61D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex25_String_class", "Ex25_String_class\Ex25_String_class.csproj", "{11CEB391-C303-4CB7-920E-7CCC716F3D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex26_String_function_Quiz", "Ex25_String_function_Quiz\Ex26_String_function_Quiz.csproj", "{D6FD12A9-4639-4DC1-8240-A324305DC621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{50969596-ADFA-435C-89FF-DC27AA93A61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50969596-ADFA-435C-89FF-DC27AA93A61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50969596-ADFA-435C-89FF-DC27AA93A61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CEB391-C303-4CB7-920E-7CCC716F3D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CEB391-C303-4CB7-920E-7CCC716F3D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CEB391-C303-4CB7-920E-7CCC716F3D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CEB391-C303-4CB7-920E-7CCC716F3D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FD12A9-4639-4DC1-8240-A324305DC621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FD12A9-4639-4DC1-8240-A324305DC621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FD12A9-4639-4DC1-8240-A324305DC621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FD12A9-4639-4DC1-8240-A324305DC621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
