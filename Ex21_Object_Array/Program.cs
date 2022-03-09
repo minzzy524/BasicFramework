@@ -49,7 +49,7 @@ namespace Ex21_Object_Array
             arr[2].aniDisplay();
             */
 
-            Ani[] arr = new Ani[3];
+            Ani[] arr = new Ani[3]; // 빈 방 3개 >> Ani 타입의 객체만 올 수 있음 (var 값에 의해서 타입 결정)
             arr[0] = new Ani("멍멍이");
             arr[1] = new Ani("발발이");
             arr[2] = new Ani("야옹이");

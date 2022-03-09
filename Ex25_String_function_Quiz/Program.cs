@@ -56,7 +56,7 @@ namespace Ex26_String_function_Quiz
             string jumin;
             Console.Write("주민번호를 입력하세요 : ");
             jumin = Console.ReadLine();
-            juminDisplay(jumin);
+            juminDisplay(jumin); 
 
         }
 
