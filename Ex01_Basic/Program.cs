@@ -63,6 +63,7 @@ namespace Ex01_Basic // 논리적인 묶음의 단위 (클래스 간 충돌방�
             Console.WriteLine("aa값은 {0}", aa);
             Console.WriteLine(aa.GetHashCode()); // 값이 들어있음
 
+            Console.WriteLine("----------------------");
             // 참조 타입 증명
             Test t = new Test();
             Console.WriteLine(t.GetHashCode());

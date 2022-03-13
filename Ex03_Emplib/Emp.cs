@@ -8,12 +8,13 @@ namespace Ex03_Emplib // 우리가 앞으로 만들 설계도는 기본적으로
 {
     public class Emp // 사실 여기에 object라는 클래스 상속됨(화장실 같이 기본으로 주는 기능)
     {
-        // 설계도 = 속성(정보를 저장) + 기능 // 멤버필드 
+        // 설계도 = 속성(정보를 저장) + 기능 
+        // 멤버 필드 
         private int empno;
         private string ename;
         private int sal;
 
-        public Emp() { } // 생성자 함수 >> 속성의 초기화 // 컨스트럭터
+        public Emp() { } // 생성자 함수 >> 속성의 초기화 // constructor
         public Emp(int empno, string ename, int sal)
         { // 생성자 함수 (오버로딩 되어 있음) 
             this.empno = empno;
