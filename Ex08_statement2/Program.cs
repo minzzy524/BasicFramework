@@ -79,12 +79,12 @@ namespace Ex08_statement2
 
                 // 교수님 방법 (삼항연산자 교재 149p)
 
-                // grade = (score >= 95) ? (grade += "+") : (grade += "-"); // if 상황이 처리 가능
-            }
-            else if (score >= 80)
-            {
-                grade = "B";
-                grade = (score >= 85) ? (grade += "+") : (grade += "-");
+                    // grade = (score >= 95) ? (grade += "+") : (grade += "-"); // if 상황이 처리 가능
+                }
+                else if (score >= 80)
+                {
+                    grade = "B";
+                    grade = (score >= 85) ? (grade += "+") : (grade += "-");
             }
             else if (score >= 70)
             {

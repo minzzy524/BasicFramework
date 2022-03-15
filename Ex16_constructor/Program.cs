@@ -57,7 +57,7 @@ namespace Ex16_constructor
         }
 
 
-        class Book // 개발자 의도 : defaut 뺏다는 이기는 "당신은 반드시 책을 만들 때 이름과 가격을 써라" 는 뜻
+        class Book // 개발자 의도 : defaut 뺏다는 얘기는 "당신은 반드시 책을 만들 때 이름과 가격을 써라" 는 뜻
         {
             private string bname;
             private int price;

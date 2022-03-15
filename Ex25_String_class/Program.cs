@@ -92,7 +92,7 @@ namespace Ex25_String_class
         }
 
         // 문자열의 누적 >> string으로 누적작업 하면 안된다. StringBuilder 이거 쓰자(데이터 많은 경우에)
-        //StringBuilder sb =new StringBuilder();
+        //StringBuilder sb = new StringBuilder();
         //sb.Append("가");
         //sb.Append("나");
 
