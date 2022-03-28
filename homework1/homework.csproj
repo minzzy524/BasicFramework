@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract Factory Pattern\Abstract Factory Pattern_3.cs" />
+    <Compile Include="Abstract Factory Pattern\Abstract Factory Pattern_3_2.cs" />
     <Compile Include="Abstract Factory Pattern\Abstract Factory Pattern_4.cs" />
     <Compile Include="FastCampus\Array.cs" />
     <Compile Include="HW1\1to100.cs" />
