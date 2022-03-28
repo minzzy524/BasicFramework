@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract Factory Pattern\Abstract Factory Pattern_3.cs" />
+    <Compile Include="Abstract Factory Pattern\Abstract Factory Pattern_4.cs" />
+    <Compile Include="FastCampus\Array.cs" />
     <Compile Include="HW1\1to100.cs" />
     <Compile Include="HW1\3.3 morning quiz.cs" />
     <Compile Include="HW1\3.cs" />
@@ -55,6 +58,8 @@
     <Compile Include="HW1\Stars.cs" />
     <Compile Include="Team\CInema\Array_cinema.cs" />
     <Compile Include="Team\CInema\Program.cs" />
+    <Compile Include="Templete Method Pattern\Templete Method Pattern_3.cs" />
+    <Compile Include="Templete Method Pattern\Templete Method Pattern_4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="HW1\App.config" />
